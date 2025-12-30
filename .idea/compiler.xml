@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="tech-common" />
+        <module name="tech-gateway" />
+        <module name="tech-account" />
+        <module name="tech-storage" />
+        <module name="tech-praise-consumer" />
+        <module name="tech-frontend" />
+        <module name="order" />
+        <module name="tech-praise-provider" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="order" options="-parameters" />
+      <module name="tech-account" options="-parameters" />
+      <module name="tech-common" options="-parameters" />
+      <module name="tech-frontend" options="-parameters" />
+      <module name="tech-gateway" options="-parameters" />
+      <module name="tech-praise-consumer" options="-parameters" />
+      <module name="tech-praise-provider" options="-parameters" />
+      <module name="tech-storage" options="-parameters" />
+    </option>
+  </component>
+</project>
