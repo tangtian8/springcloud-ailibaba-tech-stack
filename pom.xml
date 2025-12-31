@@ -46,7 +46,7 @@
         <module>tech-common</module>
         <module>tech-account</module>
         <module>tech-gateway</module>
-        <module>order</module>
+        <module>tech-order</module>
         <module>tech-praise-consumer</module>
         <module>tech-praise-provider</module>
         <module>tech-storage</module>
