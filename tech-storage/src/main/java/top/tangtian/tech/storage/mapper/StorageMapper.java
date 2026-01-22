@@ -16,7 +16,7 @@ import java.sql.Timestamp;
 @Repository
 public interface StorageMapper {
 
-	@Select("SELECT `count` FROM storage WHERE commodity_code = #{commodityCode}")
+	@Select("SELECT \"count\" FROM storage WHERE commodity_code = #{commodityCode}")
 	Integer getStock(@Param("commodityCode") String commodityCode);
 
 	@Update("UPDATE storage SET count = count - #{count},update_time=#{updateTime} WHERE commodity_code = #{commodityCode}")

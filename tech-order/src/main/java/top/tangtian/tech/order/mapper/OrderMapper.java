@@ -4,6 +4,7 @@ import org.apache.ibatis.annotations.Insert;
 import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Options;
 import org.springframework.stereotype.Repository;
+import top.tangtian.tech.order.entity.Order;
 
 /**
  * @author tangtian
